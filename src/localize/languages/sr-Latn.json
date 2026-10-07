@@ -10,7 +10,7 @@
         "invalid": "Neispravan šablon!",
         "vacuum_goto": "Idi na tačku",
         "vacuum_goto_predefined": "Tačke",
-        "vacuum_clean_segment": "Sobe",
+        "vacuum_clean_segment": "Prostorije",
         "vacuum_clean_point": "Čišćenje tačke",
         "vacuum_clean_point_predefined": "Tačke",
         "vacuum_clean_zone": "Čišćenje zone",
@@ -50,7 +50,7 @@
             "icons": {
                 "invalid": "Greška u konfiguraciji: icons",
                 "icon": {
-                    "missing": "Svaki unos na listi ikonica mora sadržati svojstvo icon"
+                    "missing": "Svaki unos na listi ikona mora sadržati svojstvo icon"
                 }
             },
             "tiles": {
@@ -65,7 +65,7 @@
             "map_modes": {
                 "invalid": "Greška u konfiguraciji: map_modes",
                 "icon": {
-                    "missing": "Nedostaje ikonica za režim mape"
+                    "missing": "Nedostaje ikona za režim mape"
                 },
                 "name": {
                     "missing": "Nedostaje naziv za režim mape"
@@ -87,11 +87,11 @@
                     },
                     "rooms": {
                         "id": {
-                            "missing": "Nedostaje ID sobe",
-                            "invalid_format": "Neispravan ID sobe: {0}"
+                            "missing": "Nedostaje ID prostorije",
+                            "invalid_format": "Neispravan ID prostorije: {0}"
                         },
                         "outline": {
-                            "invalid_parameters_number": "Svaka tačka konture sobe mora imati tačno 2 parametra"
+                            "invalid_parameters_number": "Svaka tačka konture prostorije mora imati tačno 2 parametra"
                         }
                     },
                     "label": {
@@ -107,13 +107,13 @@
                     },
                     "icon": {
                         "x": {
-                            "missing": "Ikonica mora imati svojstvo x"
+                            "missing": "Ikona mora imati svojstvo x"
                         },
                         "y": {
-                            "missing": "Ikonica mora imati svojstvo y"
+                            "missing": "Ikona mora imati svojstvo y"
                         },
                         "name": {
-                            "missing": "Ikonica mora imati svojstvo name"
+                            "missing": "Ikona mora imati svojstvo name"
                         }
                     }
                 },
@@ -151,7 +151,7 @@
                 "docking": "Pristajanje na bazu",
                 "going to target": "Ide ka cilju",
                 "zoned cleaning": "Čišćenje zone",
-                "segment cleaning": "Čišćenje sobe",
+                "segment cleaning": "Čišćenje prostorije",
                 "emptying the bin": "Pražnjenje posude",
                 "charging complete": "Napunjen",
                 "device offline": "Uređaj je oflajn"
@@ -210,10 +210,10 @@
             }
         },
         "bin_present": {
-            "label": "Bin present",
+            "label": "Posuda prisutna",
             "value": {
-                "true": "Yes",
-                "false": "No"
+                "true": "Da",
+                "false": "Ne"
             }
         },
         "water_volume": {
@@ -282,7 +282,7 @@
             "set_static_config": "Generiši statičku konfiguraciju",
             "config_set": "Konfiguracija je postavljena!\nOtvorite editor konfiguracije da je prilagodite.",
             "config_set_failed": "Ažuriranje konfiguracije nije uspelo.",
-            "generate_rooms_config": "Generiši konfiguraciju soba",
+            "generate_rooms_config": "Generiši konfiguraciju prostorija",
             "copy_service_call": "Kopiraj poziv servisa",
             "copy_entity_info": "Kopiraj informacije o entitetima"
         },
